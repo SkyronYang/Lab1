@@ -7,7 +7,6 @@
 import numpy as np
 from scipy.optimize import linprog
 
-# 定义目标函数系数
 c = [-2, -3]
 
 # 定义约束条件系数矩阵 A 和约束条件右侧常数 b
