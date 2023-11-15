@@ -7,7 +7,6 @@
 
 import pulp as pulp
 
-# 创建一个LP问题实例，求解最大化目标函数
 problem = pulp.LpProblem("LP problem", pulp.LpMaximize)
 
 # 创建决策变量 x1 和 x2，取值范围为非负实数
